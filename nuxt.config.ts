@@ -3,5 +3,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/eslint-module'
-  ]
+  ],
+  eslint: {
+    lintOnStart: false
+  }
 })
